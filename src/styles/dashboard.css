@@ -1,0 +1,29 @@
+.dashboard-card {
+    background: orange;
+}
+
+@media only screen and (max-width: 768px) {
+    .mt-md-5 {
+      margin-top: 3rem;
+    }
+  
+    .mt-4 {
+      margin-top: 2rem; 
+    }
+  
+    .CardContainer {
+      display: flex;
+      flex-direction: column; 
+      align-items: center; 
+    }
+  
+    .Card {
+      width: 100%; 
+      margin-bottom: 2rem; 
+    }
+  
+    .CardContent {
+      text-align: center;
+    }
+  }
+  

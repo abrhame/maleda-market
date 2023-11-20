@@ -1,0 +1,24 @@
+
+
+.input {
+    margin: 1rem;
+}
+
+.wrapper {
+ display: grid;
+ grid-template-columns: 4fr 4fr;
+ align-items: space-between;
+ justify-content: space-between;
+ width: 100%;
+ gap: 1rem;
+}
+
+.right {
+    padding: 1rem;
+
+}
+
+.left {
+    padding: 1rem;
+  
+}

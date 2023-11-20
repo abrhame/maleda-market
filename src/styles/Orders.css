@@ -1,0 +1,120 @@
+/* Orders Container */
+.order {
+  margin: 1rem;
+  width: 100%;
+}
+
+.product-divider {
+  border-top: 1px solid #ccc;
+  margin: 8px 0;
+}
+
+/* Orders Section */
+.orders-section {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+/* Orders Table */
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Header */
+th {
+  background-color: #212245;
+  color: #fff;
+}
+
+/* Table Cells */
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Sort Button */
+.sort-button {
+  background-color: #f2f2f2;
+  color: rgb(0, 36, 0);
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Status Cell */
+.status-cell {
+  font-weight: bold;
+  color: #ff5733;
+}
+
+/* Action Button */
+.action-button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
+
+/* Picked Button */
+.picked-button {
+  background-color: rgb(252, 191, 79);
+  color: #fff;
+}
+
+/* Not Picked Button */
+.not-picked-button {
+  background-color: #d63031;
+  color: #fff;
+}
+
+/* Picked Button Style */
+.picked__btn {
+  background-color: orange;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+/* Picked Button Hover Style */
+.picked__btn:hover {
+  background-color: rgb(252, 191, 79);
+  color: white;
+}
+
+/* Not Picked Button Focus Style */
+.not__picked__btn:focus {
+  background-color: rgb(252, 191, 79);
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+/* Sort Button Style */
+.sort-button {
+  background-color: orange;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+/* Sort Button Hover Style */
+.sort-button:hover {
+  background-color: #555;
+}
+
+/* Custom Table */
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

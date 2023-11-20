@@ -1,0 +1,56 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu_section{
+  margin-top: 2rem;
+}
+
+.close-btn-container {
+  display: inline-block;
+  cursor: pointer;
+  padding: 8px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  transition: background-color 0.2s;
+
+  @media (max-width: 768px) {
+    
+    padding: 4px;
+  }
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
+
+.close-btn {
+  color: red;
+
+  @media (max-width: 768px) {
+
+    color: blue;
+  }
+}
+
+.dialog {
+  padding: 1.5rem;
+
+  @media (max-width: 768px) {
+    /* Adjust padding for screens smaller than 768px */
+    padding: 1rem;
+  }
+}
+
+.input {
+  padding: 1rem;
+
+  @media (max-width: 768px) {
+    /* Adjust padding for screens smaller than 768px */
+    padding: 0.5rem;
+  }
+}
